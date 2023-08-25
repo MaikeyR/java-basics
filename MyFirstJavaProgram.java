@@ -15,6 +15,9 @@ public class MyFirstJavaProgram {
         }
         System.out.println("");
 
-        
+        int salaries[] = {50000, 75340, 110500, 98270, 39400};
+        for(int i=0; i<salaries.length; i++) {
+            System.out.println("The element at index " + i + " has the value of " + salaries[i]);
+        }
     }
 }
