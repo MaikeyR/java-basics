@@ -1,18 +1,15 @@
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 
 public class TextFileReader {
-  /**
-   * @param args
-   */
   public static void main(String[] args) {
-    FileReader fr = null;
+    InputStreamReader isr = null;
     BufferedReader br = null;
     try {
-      fr = new FileReader("file.txt");
-      br = new BufferedReader(fr);
+      isr = new InputStreamReader(TextFileReader.class.getResourceAsStream("/file.txt"));
+      br = new BufferedReader(isr);
       String line;
       while ((line = br.readLine()) != null) {
         // process the line
@@ -31,9 +28,9 @@ public class TextFileReader {
           br.close();
         } catch (IOException e) {
           /* ensure close */ }
-      if (fr != null)
+      if (isr != null)
         try {
-          fr.close();
+          isr.close();
         } catch (IOException e) {
           /* ensure close */ }
     }
