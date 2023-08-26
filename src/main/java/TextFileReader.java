@@ -4,6 +4,9 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 
 public class TextFileReader {
+  /**
+   * @param args
+   */
   public static void main(String[] args) {
     FileReader fr = null;
     BufferedReader br = null;
