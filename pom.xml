@@ -31,8 +31,8 @@
                                     <artifactId>maven-compiler-plugin</artifactId>
                                     <version>3.11</version>
                                     <configuration>
-                                        <fork>true</fork>
-                                        <compilerVersion>20</compilerVersion>
+                                        <source>20</source>
+                                        <target>20</target>
                                     </configuration>
                                 </plugin>
                             </plugins>
