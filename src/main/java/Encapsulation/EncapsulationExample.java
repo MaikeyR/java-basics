@@ -1,7 +1,6 @@
 package Encapsulation;
 
 public class EncapsulationExample {
-
     public static void main(String[] args) {
         Car car = new Car();
         car.setName("Porsche Cayenne 4.8-litre V8");

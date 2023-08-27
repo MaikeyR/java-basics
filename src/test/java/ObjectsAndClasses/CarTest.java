@@ -35,7 +35,7 @@ public class CarTest {
     public void testPark() {
         audi.accelerate();
         audi.park();
-        
+
         audi.printCurrentSpeed();
         nissan.printCurrentSpeed();
 
