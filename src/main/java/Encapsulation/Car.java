@@ -1,4 +1,4 @@
-package ObjectsAndClasses;
+package Encapsulation;
 
 public class Car {
 
