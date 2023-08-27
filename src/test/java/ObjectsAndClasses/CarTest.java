@@ -13,6 +13,9 @@ public class CarTest {
     public void setUp() {
         audi = new Car("Audi");
         nissan = new Car("Nissan");
+
+        audi.printCurrentSpeed();
+        nissan.printCurrentSpeed();
     }
 
     @Test
@@ -20,6 +23,9 @@ public class CarTest {
         audi.accelerate();
         audi.accelerate();
         nissan.accelerate();
+
+        audi.printCurrentSpeed();
+        nissan.printCurrentSpeed();
 
         assertEquals(20, audi.getCurrentSpeed());
         assertEquals(10, nissan.getCurrentSpeed());
@@ -29,6 +35,10 @@ public class CarTest {
     public void testPark() {
         audi.accelerate();
         audi.park();
+        
+        audi.printCurrentSpeed();
+        nissan.printCurrentSpeed();
+
         assertEquals(0, audi.getCurrentSpeed());
     }
 
