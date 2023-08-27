@@ -1,7 +1,7 @@
 # Exclude Maven build artifacts
 target/
 !target/classes/
-target/test-classes/
+!target/test-classes/
 
 # Exclude other files
 pom.xml.tag
