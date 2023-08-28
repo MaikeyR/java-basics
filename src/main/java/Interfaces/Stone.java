@@ -8,6 +8,7 @@ public class Stone implements FoundObject {
     this.name = name;
   }
 
+  @Override
   public String getName() {
     return name;
   }
