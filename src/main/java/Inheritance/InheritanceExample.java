@@ -8,9 +8,7 @@ public class InheritanceExample {
         if (point instanceof ColoredPoint) {
             ColoredPoint coloredPoint = (ColoredPoint) point;
             System.out.println("the color of the point is: " + coloredPoint.getColorName());
-            System.out.println("with coordinates x=" + coloredPoint.getX() +
-                    " y=" + coloredPoint.getY());
+            System.out.println("with coordinates x=" + coloredPoint.getX() + " y=" + coloredPoint.getY());
         }
     }
-
 }

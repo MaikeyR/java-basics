@@ -3,16 +3,22 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>mavenprofilesdemo</groupId>
   <artifactId>mavenprofilesdemo</artifactId>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.2</version>
-      <scope>test</scope>
+    <dependency>        
+      <groupId>org.junit.jupiter</groupId>        
+      <artifactId>junit-jupiter-api</artifactId>        
+      <version>5.4.2</version>        
+      <scope>test</scope>    
+    </dependency>    
+    <dependency>       
+      <groupId>org.junit.jupiter</groupId>        
+      <artifactId>junit-jupiter-engine</artifactId>        
+      <version>5.4.2</version>        
+      <scope>test</scope>    
     </dependency>
   </dependencies>
   <repositories>

@@ -1,16 +1,16 @@
 package ObjectsAndClasses;
 
-import org.junit.Before;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
 public class CarTest {
 
-    private Car audi;
-    private Car nissan;
+    private static Car audi;
+    private static Car nissan;
 
-    @Before
-    public void setUp() {
+    @BeforeAll
+    public static void setUp() {
         audi = new Car("Audi");
         nissan = new Car("Nissan");
 
