@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>mavenprofilesdemo</groupId>
   <artifactId>mavenprofilesdemo</artifactId>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven Quick Start Archetype</name>
   <url>http://maven.apache.org</url>
@@ -46,8 +46,5 @@
     </profile>
   </profiles>
   <modules>
-    <module>example1</module>
-    <module>example2</module>
-    <module>example3</module>
   </modules>
 </project>
