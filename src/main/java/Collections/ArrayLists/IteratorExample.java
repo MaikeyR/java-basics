@@ -1,8 +1,8 @@
-package Collections;
+package Collections.ArrayLists;
 
 import java.util.*;
 
-public class RemoveExample {
+public class IteratorExample {
   public static void main(String[] args) {
     ArrayList<String> animals = new ArrayList<String>();
 
@@ -10,10 +10,9 @@ public class RemoveExample {
     animals.add("Tiger");
     animals.add("Lion");
 
-    animals.remove(1);
+    Iterator<String> iterator = animals.iterator();
 
-    for (int i = 0; i < animals.size(); i++)
-      System.out.println(i + ": " + animals.get(i));
-
+    while (iterator.hasNext())
+      System.out.println(iterator.next());
   }
 }

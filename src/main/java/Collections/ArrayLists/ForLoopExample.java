@@ -1,8 +1,8 @@
-package Collections;
+package Collections.ArrayLists;
 
 import java.util.*;
 
-public class IndexOfExample {
+public class ForLoopExample {
   public static void main(String[] args) {
     ArrayList<String> animals = new ArrayList<String>();
 
@@ -10,7 +10,8 @@ public class IndexOfExample {
     animals.add("Tiger");
     animals.add("Lion");
 
-    System.out.println("Index of 'Elephant': " + animals.indexOf("Elephant"));
-    System.out.println("Index of 'Lion': " + animals.indexOf("Lion"));
+    for (String animal : animals) {
+      System.out.println(animal);
+    }
   }
 }

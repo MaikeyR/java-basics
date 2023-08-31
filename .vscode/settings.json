@@ -3,5 +3,6 @@
   "editor.tabSize": 2,
   "[java]": {
     "editor.tabSize": 2
-  }
+  },
+  "xml.java.home": "C:\\Program Files\\Java\\jdk-20"
 }
