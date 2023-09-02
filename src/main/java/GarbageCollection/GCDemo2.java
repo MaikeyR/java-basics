@@ -16,6 +16,10 @@ public class GCDemo2 {
         System.out.println("Creating object " + instanceNumber);
     }
 
+    public String getValue() {
+        return value;
+    }
+
     public void setValue(String value) {
         this.value = value;
     }
